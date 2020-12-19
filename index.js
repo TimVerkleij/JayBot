@@ -9,7 +9,7 @@ client.once('ready', () => {
 
 
 client.login
-('Nzg5Njc1MDQyNjYxMDcyOTI2.X91gMQ.wXhQYW5bEqLNJnbXUvDLRzt1db0');
+(process.env.BOT_TOKEN);
 
 client.on('ready', () => {
   console.log("Active")
